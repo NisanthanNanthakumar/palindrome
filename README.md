@@ -1,9 +1,10 @@
+You need Node.js
 
 ## Running Locally
 
 ```
-git clone git@github.com:fullstackreact/food-lookup-demo.git
-cd food-lookup-demo
+git clone https://github.com/NisanthanNanthakumar/palindrome.git
+cd palindrome
 npm i
 
 cd client
