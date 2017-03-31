@@ -1,0 +1,27 @@
+[
+  {
+    "foo": "bar"
+  },
+  {
+    "key": "racecar"
+  },
+  {
+    "key": "not a palindrome",
+    "word": "sentence"
+  },
+  {
+    "sent": "A but tuba",
+    "key": "A car a man a maraca"
+  },
+  {
+    "fixx" : "A dog a plan a canal pagoda"
+  },
+  {
+    "joe" : "yellow flower",
+    "key" : "A dog A panic in a pagoda",
+    "keyword" : "A lad named E Mandala"
+  },
+  {
+    "key" :"A Santa at Nasa"
+  }
+]
