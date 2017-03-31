@@ -64,7 +64,7 @@ app.get('/palindromes', function(req, res) {
             if (index === (files.length - 1)) {
               res.json(palindromeArray)
             }
-            
+
         })
       });
 })

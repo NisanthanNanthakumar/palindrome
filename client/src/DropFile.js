@@ -20,7 +20,7 @@ export default class DropFile extends Component {
     .then((results) => {
       console.log('results[0]', results[0].data);
       console.log('results[1]', results[1].data);
-    let result = results[0].data.map((x) => Object.assign(x, results[1].data.find(y => y.id === x.id))) //merge data into 1 object
+    let result = results[1].data.map((x) => Object.assign(x, results[0].data.find(y => y.id === x.id))) //merge data into 1 object
     console.log('result ', result);
     this.setState({posts: result});
     })
